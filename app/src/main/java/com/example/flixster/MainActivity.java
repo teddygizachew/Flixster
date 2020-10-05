@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the adapter on the recycler view
         rvMovies.setAdapter(movieAdapter);
 
-        // Set Layout MAnager on the recyvler view
+        // Set Layout Manager on the recycler view
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
 
         AsyncHttpClient client = new AsyncHttpClient();
